@@ -88,7 +88,7 @@ Shader "KH/Distortion/Shield" {
 				fixed4 distortion = tex2Dproj(_DistortionBuffer, UNITY_PROJ_COORD(screen));
 				
 				float4 screenPos = screen;				
-				screenPos.xy =  screenPos.xy - (distortion.rb - 0.5) * 1.0;
+				screenPos.xy =  screenPos.xy - (distortion.rb - 0.5) * 10.0;
 
 				float4 d = tex2Dproj(_ScreenBuffer, UNITY_PROJ_COORD(screenPos));
 				return  tex + d + texColor * CalcShieldIntensity16(i.oPos);

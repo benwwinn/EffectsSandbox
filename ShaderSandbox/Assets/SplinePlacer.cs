@@ -18,22 +18,22 @@ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN            
 THE SOFTWARE.
 */
 
 using UnityEngine;
 using System.Collections;
-using System.Collections.Generic;
+using System.Collections.Generic;               
 
-public class SplinePlacer : MonoBehaviour 
+public class SplinePlacer : MonoBehaviour        
 {
 	public Transform[] initialNodes;
 	public int curveResolution;
 	public bool loop;
 	public GameObject objectToPlace;
 
-	public float distanceBetweenObjects = 1.0f;
+	public float distanceBetweenObjects = 1.0f;                     
 
 	public void PlaceObjects()
 	{
@@ -43,10 +43,10 @@ public class SplinePlacer : MonoBehaviour
 		IEnumerable<Vector3> spline = Interpolate.NewCatmullRom(initialNodes, curveResolution, loop);
 		IEnumerator iterator = spline.GetEnumerator();
 
-		List<Vector3> splinePoints = new List<Vector3>();
+		List<Vector3> splinePoints = new List<Vector3>();      
 		while (iterator.MoveNext())
 		{
-			if (splinePoints.Count > 0)
+			if (splinePoints.Count > 0)        
 			{
 				if ((Vector3)iterator.Current == splinePoints[0]) break;
 			}

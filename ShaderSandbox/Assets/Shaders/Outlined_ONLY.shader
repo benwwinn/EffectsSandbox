@@ -27,41 +27,43 @@ v2f vert(appdata v) {
  
 	float3 norm   = mul ((float3x3)UNITY_MATRIX_IT_MV, v.normal);
 	float2 offset = TransformViewToProjection(norm.xy);
- 
-	o.pos.xy += offset * o.pos.z * _Outline;
+
+	o.pos.xy += offset * 3 * _Outline; //make the 3 a variable to be edited by code
+	//unse below instead to scale based on camera distance
+	//o.pos.xy += offset * o.pos.z * _Outline;
 	o.color = _OutlineColor;
 	return o;
 }
 ENDCG
  
 	SubShader {
-		Tags { "Queue" = "Transparent" }
+		Tags { "Queue" = "Transparent" }          
  
 		Pass {
 			Name "BASE"
 			Cull Back
 			Blend Zero One
  
-			// uncomment this to hide inner details:
+			// uncomment this to hide inner details:  
 			//Offset -8, -8
  
-			SetTexture [_OutlineColor] {
+			SetTexture [_OutlineColor] {          
 				ConstantColor (0,0,0,0)
 				Combine constant
 			}
 		}
  
-		// note that a vertex shader is specified here but its using the one above
+		// note that a vertex shader is specified here but its using the one above                   
 		Pass {
 			Name "OUTLINE"
-			Tags { "LightMode" = "Always" }
+			Tags { "LightMode" = "Always" }                              
 			Cull Front
  
-			// you can choose what kind of blending mode you want for the outline
+			// you can choose what kind of blending mode you want for the outline                           
 			//Blend SrcAlpha OneMinusSrcAlpha // Normal
 			//Blend One One // Additive
-			Blend One OneMinusDstColor // Soft Additive
-			//Blend DstColor Zero // Multiplicative
+			Blend One OneMinusDstColor // Soft Additive                          
+			//Blend DstColor Zero // Multiplicative        
 			//Blend DstColor SrcColor // 2x Multiplicative
  
 CGPROGRAM

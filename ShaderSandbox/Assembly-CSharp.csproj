@@ -79,7 +79,6 @@
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Cutout\MK_Cutout-Glossy.shader" />
-     <None Include="Assets\CourtShaders&amp;Mats\Oberon_basic_vertexcolor.shader" />
      <None Include="Assets\Shaders\sliceWorldSpace.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Transparent\MK_Transparent-DiffuseBumpRim.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Sprites\MK_Sprite-Default.shader" />
@@ -106,7 +105,6 @@
      <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Emission\MK_Emission-Diffuse.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKGlowEffect\MKGlowCompose.shader" />
-     <None Include="Assets\CourtShaders&amp;Mats\Oberon_vertex_sine_Sorted.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKGlowEffect\MKGlowBlur.shader" />
      <None Include="Assets\Shaders\dissolveShader.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
@@ -119,17 +117,14 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
-     <None Include="Assets\CourtShaders&amp;Mats\Oberon_vertexcolor+rim_batched.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Mobile\MK_Mobile-DiffuseBumped.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
-     <None Include="Assets\CourtShaders&amp;Mats\vc+rim+shadows.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Particles\MK_Particles-MulitplyDouble.shader" />
-     <None Include="Assets\CourtShaders&amp;Mats\simple_overlay.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Particles\MK_Particles-Additive.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Normal\MK_Normal-DiffuseDetail.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Lightmapped\MK_Lightmap-DiffuseBumped.shader" />
@@ -138,17 +133,12 @@
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Illumin\MK_Illumin-DiffuseBumpSpec.shader" />
      <None Include="Assets\Shaders\SunShader.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Sprites\MK_Sprite-Diffuse.shader" />
-     <None Include="Assets\CourtShaders&amp;Mats\Oberon_vertexlightfx.shader" />
-     <None Include="Assets\CourtShaders&amp;Mats\PureRim.shader" />
-     <None Include="Assets\CourtShaders&amp;Mats\vc+shadows.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Reflective\MK_Reflective-Glossy.shader" />
-     <None Include="Assets\CourtShaders&amp;Mats\readme.txt" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Transparent\MK_Transparent-ParallaxSpec.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Illumin\MK_Illumin-DiffuseBumped.shader" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
-     <None Include="Assets\CourtShaders&amp;Mats\Oberon_landscape_shadows.shader" />
      <None Include="Assets\stencil\StencilMask.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Normal\MK_Normal-Glossy.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Lightmapped\MK_Lightmap-Diffuse.shader" />
@@ -173,7 +163,6 @@
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Particles\MK_Particles-PremultiplyBlend.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Particles\MK_Particles-Blend.shader" />
-     <None Include="Assets\CourtShaders&amp;Mats\Oberon_vertexcolor.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
      <None Include="Assets\Shaders\Dissolve_Simple.shader" />
      <None Include="Assets\Shaders\bumpSpecRim.shader" />
@@ -203,7 +192,6 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
      <None Include="Assets\JMO Assets\MatCap Shaders\Shaders\MatCap_TextureMult.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
-     <None Include="Assets\CourtShaders&amp;Mats\Oberon_character.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
@@ -211,7 +199,6 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
-     <None Include="Assets\CourtShaders&amp;Mats\Oberon_landscape.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Normal\MK_Normal-Diffuse.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Particles\MK_Particles-Multiply.shader" />
@@ -234,7 +221,6 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Normal\MK_Normal-DiffuseRim.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
-     <None Include="Assets\CourtShaders&amp;Mats\Oberon_vertexcolor+rim.shader" />
      <None Include="Assets\Shaders\Outlined_Diffuse_Bumped.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Illumin\MK_Illumin-ParallaxSpec.shader" />
      <None Include="Assets\JMO Assets\MatCap Shaders\Shaders\MatCap_TextureAdd.shader" />
@@ -243,7 +229,6 @@
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Transparent\MK_Transparent-Glossy.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
-     <None Include="Assets\CourtShaders&amp;Mats\SubtleRim.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Cutout\MK_Cutout-Diffuse.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKGlowEffect\MKGlowRender.shader" />
@@ -252,11 +237,9 @@
      <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Reflective\MK_Reflective-DiffuseBumpedNoLight.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Reflective\MK_Reflective-DiffuseBumpSpec.shader" />
-     <None Include="Assets\CourtShaders&amp;Mats\Oberon_vertexcolor+rim 1.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
      <None Include="Assets\Shaders\Dissolve_Untargeted.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Cutout\MK_Cutout-DiffuseBumped.shader" />
-     <None Include="Assets\CourtShaders&amp;Mats\Oberon_vertex_sine.shader" />
      <None Include="Assets\JMO Assets\MatCap Shaders\Textures\BenSimonds\_Textures Readme.txt" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Reflective\MK_Reflective-Parallax.shader" />
      <None Include="Assets\Shaders\Outlined_Diffuse.shader" />

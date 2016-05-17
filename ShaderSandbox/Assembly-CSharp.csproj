@@ -59,6 +59,7 @@
      <Compile Include="Assets\Scripts\TriggerDissolveOnClick.cs" />
      <Compile Include="Assets\Scripts\VolumetricImageEffect.cs" />
      <Compile Include="Assets\Scripts\gridOverlay.cs" />
+     <Compile Include="Assets\Scripts\noiseWave.cs" />
      <Compile Include="Assets\Scripts\particleLines.cs" />
      <Compile Include="Assets\ShieldEffect\BlitToScreen.cs" />
      <Compile Include="Assets\ShieldEffect\ScreenSpaceDistortionEffect.cs" />
@@ -119,12 +120,14 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Shaders\wireFrameShader.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Mobile\MK_Mobile-DiffuseBumped.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Particles\MK_Particles-MulitplyDouble.shader" />
+     <None Include="Assets\Seascape.compute" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Particles\MK_Particles-Additive.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Normal\MK_Normal-DiffuseDetail.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Lightmapped\MK_Lightmap-DiffuseBumped.shader" />
@@ -133,6 +136,7 @@
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Illumin\MK_Illumin-DiffuseBumpSpec.shader" />
      <None Include="Assets\Shaders\SunShader.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Sprites\MK_Sprite-Diffuse.shader" />
+     <None Include="Assets\Shaders\Distortion.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Reflective\MK_Reflective-Glossy.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Transparent\MK_Transparent-ParallaxSpec.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
@@ -143,6 +147,7 @@
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Normal\MK_Normal-Glossy.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Lightmapped\MK_Lightmap-Diffuse.shader" />
      <None Include="Assets\stencil\StencilGeometry.shader" />
+     <None Include="Assets\Shaders\Seashader.shader" />
      <None Include="Assets\Shaders\VolumetricLightApproximation.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Toon\MK_Toon-BasicOutline.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />

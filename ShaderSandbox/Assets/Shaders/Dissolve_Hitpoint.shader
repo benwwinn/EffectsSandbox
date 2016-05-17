@@ -38,12 +38,12 @@ Shader "KH/Dissolve/Dissolve Origin Point"
 		
 		Pass
 		{
-			Blend SrcAlpha OneMinusSrcAlpha
+			Blend SrcAlpha OneMinusSrcAlpha   
 			Cull back
 			CGPROGRAM
 			
 			#pragma vertex vert
-			#pragma fragment frag
+			#pragma fragment frag    
 			
 			sampler2D _MainTex;
 			sampler2D _BurnGradient;
@@ -62,7 +62,7 @@ Shader "KH/Dissolve/Dissolve Origin Point"
 			{
 				float4 pos : SV_POSITION;
 				float3 oPos : TEXCOORD2;
-				float3 hitPos : TEXCOORD1;
+				float3 hitPos : TEXCOORD1;               
 				float2 uv : TEXCOORD0;
 			};
 			
@@ -72,8 +72,8 @@ Shader "KH/Dissolve/Dissolve Origin Point"
 				o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
 				o.uv = v.texcoord;
 				o.oPos = v.vertex;
-				o.hitPos = mul(_World2Object, _HitPos).xyz;
-				return o;
+				o.hitPos = mul(_World2Object, _HitPos).xyz;            
+				return o; 
 			}
 			
 			float sqrMagnitude(float3 v)
@@ -83,7 +83,7 @@ Shader "KH/Dissolve/Dissolve Origin Point"
 			
 			fixed4 frag(vOUT i) : COLOR
 			{
-				fixed4 mainTex = tex2D(_MainTex, i.uv);
+				fixed4 mainTex = tex2D(_MainTex, i.uv);             
 				fixed noiseVal = tex2D(_NoiseTex, i.uv).r;
 				
 				fixed toPoint =  (length(i.oPos.xyz - i.hitPos.xyz) / ((1.0001 - _DissolveValue) * _LargestVal));
@@ -99,3 +99,6 @@ Shader "KH/Dissolve/Dissolve Origin Point"
 		}
 	} 
 }
+
+ 
+       

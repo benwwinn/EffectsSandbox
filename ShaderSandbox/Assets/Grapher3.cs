@@ -31,7 +31,7 @@ public class Grapher3 : MonoBehaviour {
 
 	private void CreatePoints () {
 		currentResolution = resolution;
-		points = new ParticleSystem.Particle[resolution * resolution * resolution];
+		points = new ParticleSystem.Particle[resolution * resolution * resolution];     
 		float increment = 1f / (resolution - 1);
 		int i = 0;
 		for (int x = 0; x < resolution; x++) {

@@ -235,6 +235,7 @@
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Reflective\MK_Reflective-Diffuse.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKGlowEffect\MKGlowFullScreenDownSample.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\paintedWireframes.shader" />
      <None Include="Assets\JMO Assets\MatCap Shaders\Shaders\MatCap_Plain_AdditiveZ.shader" />
      <None Include="Assets\JMO Assets\!JMO Assets Readme.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
@@ -307,6 +308,7 @@
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Transparent\MK_Transparent-Glossy.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\lcd\LCD.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Cutout\MK_Cutout-Diffuse.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKGlowEffect\MKGlowRender.shader" />
@@ -317,6 +319,7 @@
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Reflective\MK_Reflective-DiffuseBumpSpec.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
      <None Include="Assets\Shaders\Dissolve_Untargeted.shader" />
+     <None Include="Assets\Shaders\wireFrameShader_glow.shader" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Cutout\MK_Cutout-DiffuseBumped.shader" />
      <None Include="Assets\JMO Assets\MatCap Shaders\Textures\BenSimonds\_Textures Readme.txt" />
      <None Include="Assets\_MK\_MKGlowSystem\_Shader\_MKBase\Reflective\MK_Reflective-Parallax.shader" />

@@ -61,6 +61,7 @@
      <Compile Include="Assets\Scripts\gridOverlay.cs" />
      <Compile Include="Assets\Scripts\noiseWave.cs" />
      <Compile Include="Assets\Scripts\particleLines.cs" />
+     <Compile Include="Assets\Scripts\spectrumData.cs" />
      <Compile Include="Assets\ShieldEffect\BlitToScreen.cs" />
      <Compile Include="Assets\ShieldEffect\ScreenSpaceDistortionEffect.cs" />
      <Compile Include="Assets\SplinePlacer.cs" />

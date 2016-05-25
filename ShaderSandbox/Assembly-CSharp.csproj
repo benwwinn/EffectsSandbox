@@ -51,6 +51,8 @@
      <Compile Include="Assets\Interpolate.cs" />
      <Compile Include="Assets\JMO Assets\MatCap Shaders\Demo\Assets\MC_AutoRotate.cs" />
      <Compile Include="Assets\JMO Assets\MatCap Shaders\Demo\Assets\MC_SwitchTexture.cs" />
+     <Compile Include="Assets\Scripts\AudioMeasureCS.cs" />
+     <Compile Include="Assets\Scripts\AudioMeasureToNoise.cs" />
      <Compile Include="Assets\Scripts\CamMovementScript.cs" />
      <Compile Include="Assets\Scripts\DissolveEffect.cs" />
      <Compile Include="Assets\Scripts\FireShotsFromVerts.cs" />

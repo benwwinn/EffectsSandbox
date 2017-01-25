@@ -1,4 +1,7 @@
-﻿//Copyright (c) 2016 Kyle Halladay
+﻿// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+// Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
+
+//Copyright (c) 2016 Kyle Halladay
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to 
 //deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, 
@@ -66,9 +69,9 @@ Shader "KH/Distortion/Shield" {
 			{
 				v2f o;
 				o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
-				o.normal = mul(fixed4(v.normal, 0.0), _World2Object);
+				o.normal = mul(fixed4(v.normal, 0.0), unity_WorldToObject);
 				o.texcoord = v.texcoord + half2(1, 0) * _Speed * _Time;
-				o.worldPos = mul(_Object2World, v.vertex).xyz;
+				o.worldPos = mul(unity_ObjectToWorld, v.vertex).xyz;
 				o.screenPos = o.vertex;//ComputeScreenPos(o.vertex);
 				o.oPos = v.vertex.xyz;
 				return o;

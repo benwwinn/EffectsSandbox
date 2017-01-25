@@ -1,4 +1,6 @@
-﻿/*
+﻿// Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
+
+/*
 Copyright (c) 2015 Kyle Halladay
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -72,7 +74,7 @@ Shader "KH/Dissolve/Dissolve Origin Point"
 				o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
 				o.uv = v.texcoord;
 				o.oPos = v.vertex;
-				o.hitPos = mul(_World2Object, _HitPos).xyz;            
+				o.hitPos = mul(unity_WorldToObject, _HitPos).xyz;            
 				return o; 
 			}
 			
